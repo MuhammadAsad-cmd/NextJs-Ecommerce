@@ -1,0 +1,86 @@
+export const FlashSalesData = [
+  {
+    id: 1,
+    title: "HAVIT HV-G92 Gamepad",
+    imageUrl: "/images/50752d55f8b60f2aa2923183dadbc135.png",
+    pricewas: 160,
+    pricenow: 120,
+    discount: "-40%",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, possimus!",
+    rating: 5,
+    reviews: 88,
+  },
+  {
+    id: 2,
+    title: "AK-900 Wired Keyboard",
+    imageUrl: "/images/keyboard.png",
+    pricewas: 1160,
+    pricenow: 960,
+    discount: "-35%",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, possimus!",
+    rating: 4,
+    reviews: 75,
+  },
+  {
+    id: 3,
+    title: "IPS LCD Gaming Monitor",
+    imageUrl: "/images/lcd.png",
+    pricenow: 370,
+    pricewas: 400,
+    discount: "-30%",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, possimus!",
+    rating: 5,
+    reviews: 99,
+  },
+  {
+    id: 4,
+    title: "S-Series Comfort Chair ",
+    imageUrl: "/images/chair.png",
+    pricenow: 375,
+    pricewas: 400,
+    discount: "-40%",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, possimus!",
+    rating: 5,
+    reviews: 88,
+  },
+  {
+    id: 5,
+    title: "S-Series Comfort Chair ",
+    imageUrl: "/images/chair.png",
+    pricenow: 375,
+    pricewas: 400,
+    discount: "-40%",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, possimus!",
+    rating: 5,
+    reviews: 88,
+  },
+  {
+    id: 6,
+    title: "S-Series Comfort Chair ",
+    imageUrl: "/images/chair.png",
+    pricenow: 375,
+    pricewas: 400,
+    discount: "-40%",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, possimus!",
+    rating: 5,
+    reviews: 88,
+  },
+  {
+    id: 7,
+    title: "S-Series Comfort Chair ",
+    imageUrl: "/images/chair.png",
+    pricenow: 375,
+    pricewas: 400,
+    discount: "-40%",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, possimus!",
+    rating: 5,
+    reviews: 88,
+  },
+];

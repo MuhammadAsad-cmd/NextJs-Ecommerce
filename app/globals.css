@@ -2,32 +2,97 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url("../app/Styles/fonts.css");
+
+.Popppins {
+  font-family: "Poppins", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.Inter {
+  font-family: "Inter", sans-serif;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.group-hover\:invert:hover {
+  filter: invert(100%);
+}
+.Invert {
+  filter: invert(100%) !important;
+}
+.filter {
+  filter: invert(100%);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.filter-none {
+  filter: none;
+}
+.Convert {
+  filter: invert(100%);
+}
+.OpacitBg {
+  background-color: #d9d9d9;
+  opacity: 30%;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* ScrollToTopButton.module.css */
+.scrollToTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  background-color: #f5f5f5;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.scrollToTopBtn:hover {
+  bottom: 30px;
+}
+
+.lineHeight {
+  line-height: 115px;
+}
+
+.Shadow {
+  box-shadow: 0px 1px 13px 0px #0000000d;
+  margin-bottom: 10px;
+}
+
+.Table-row {
+  margin-bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+  height: 12px !important;
+  width: 12px !important;
+  background-color: #ffffff !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #db4444;
+  border: 2px solid white;
+  width: 10px;
+  height: 10px;
+}
+
+.custom-swiper-2,
+.swiper-pagination-bullet {
+  height: 12px !important;
+  width: 12px !important;
+  background-color: #ffffff !important;
+  opacity: 50% !important;
+}
+
+.custom-swiper-2,
+.swiper-pagination-bullet-active {
+  background-color: #db4444 !important;
 }
