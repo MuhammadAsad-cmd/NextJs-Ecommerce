@@ -13,8 +13,8 @@ const HeroSection = () => {
   return (
     <>
       <div className="Popppins container mx-auto  max-w-[1170px] ">
-        <div className="flex h-full ">
-          <div className="min-w-[217px] border-r border-[#000000] border-opacity-30 pr-4 ">
+        <div className="flex items-center justify-center">
+          <div className="hidden min-w-[217px] border-r border-[#000000] border-opacity-30 pr-4 xl:block ">
             <div className="mt-10 space-y-4">
               <div className="flex items-center justify-between">
                 <p className="cursor-pointer text-base font-normal leading-6 text-[#000000]">
@@ -69,7 +69,7 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="ml-11 mt-10 max-w-[892px] bg-[#000000]">
+          <div className="mx-5 mt-10 w-full bg-[#000000] lg:mx-10 lg:max-w-[892px] xl:mx-0 xl:ml-11">
             <Swiper
               pagination={{
                 clickable: true,
@@ -78,9 +78,9 @@ const HeroSection = () => {
               slidesPerView={1}
             >
               <SwiperSlide>
-                <div className="ml-16 mt-14 flex justify-center">
+                <div className="flex flex-col items-center justify-center py-2 md:flex-row  md:py-0  lg:ml-16 lg:mt-14">
                   <div>
-                    <div className="flex items-center gap-x-6 ">
+                    <div className="flex items-center justify-center gap-x-6  lg:justify-start ">
                       <Image
                         width={40}
                         height={50}
@@ -93,10 +93,10 @@ const HeroSection = () => {
                         iPhone 14 Series
                       </p>
                     </div>
-                    <h3 className="pt-5  text-[48px] font-semibold text-[#FAFAFA]">
-                      Up to 10% <br /> off Voucher
+                    <h3 className="max-w-[294px] pt-2 text-center text-4xl font-semibold leading-normal text-[#FAFAFA] md:pt-5 lg:text-start lg:text-[48px]">
+                      Up to 10% off Voucher
                     </h3>
-                    <div className="mt-[22px] flex items-center gap-x-3">
+                    <div className="mt-3 flex items-center justify-center gap-x-3 md:mt-[22px] lg:justify-start">
                       <button className="border-b border-[#FAFAFA] text-base font-medium leading-6 text-[#FAFAFA]">
                         Shop Now
                       </button>
@@ -116,15 +116,15 @@ const HeroSection = () => {
                       unoptimized
                       src="/images/hero_endframe__cvklg0xk3w6e_large 2.png"
                       alt="Image"
-                      className="h-[352px] w-[496px]"
+                      className="h-full w-full md:h-[352px] md:w-[496px]"
                     />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="ml-16 mt-14 flex justify-center">
+                <div className="flex flex-col items-center justify-center py-2 md:flex-row  md:py-0  lg:ml-16 lg:mt-14">
                   <div>
-                    <div className="flex items-center gap-x-6 ">
+                    <div className="flex items-center justify-center gap-x-6  lg:justify-start ">
                       <Image
                         width={40}
                         height={50}
@@ -137,10 +137,10 @@ const HeroSection = () => {
                         iPhone 14 Series
                       </p>
                     </div>
-                    <h3 className="pt-5  text-[48px] font-semibold text-[#FAFAFA]">
-                      Up to 10% <br /> off Voucher
+                    <h3 className="max-w-[294px] pt-2 text-center text-4xl font-semibold leading-normal text-[#FAFAFA] md:pt-5 lg:text-start lg:text-[48px]">
+                      Up to 10% off Voucher
                     </h3>
-                    <div className="mt-[22px] flex items-center gap-x-3">
+                    <div className="mt-3 flex items-center justify-center gap-x-3 md:mt-[22px] lg:justify-start">
                       <button className="border-b border-[#FAFAFA] text-base font-medium leading-6 text-[#FAFAFA]">
                         Shop Now
                       </button>
@@ -160,15 +160,15 @@ const HeroSection = () => {
                       unoptimized
                       src="/images/hero_endframe__cvklg0xk3w6e_large 2.png"
                       alt="Image"
-                      className="h-[352px] w-[496px]"
+                      className="h-full w-full md:h-[352px] md:w-[496px]"
                     />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="ml-16 mt-14 flex justify-center">
+                <div className="flex flex-col items-center justify-center py-2 md:flex-row  md:py-0  lg:ml-16 lg:mt-14">
                   <div>
-                    <div className="flex items-center gap-x-6 ">
+                    <div className="flex items-center justify-center gap-x-6  lg:justify-start ">
                       <Image
                         width={40}
                         height={50}
@@ -181,10 +181,10 @@ const HeroSection = () => {
                         iPhone 14 Series
                       </p>
                     </div>
-                    <h3 className="pt-5  text-[48px] font-semibold text-[#FAFAFA]">
-                      Up to 10% <br /> off Voucher
+                    <h3 className="max-w-[294px] pt-2 text-center text-4xl font-semibold leading-normal text-[#FAFAFA] md:pt-5 lg:text-start lg:text-[48px]">
+                      Up to 10% off Voucher
                     </h3>
-                    <div className="mt-[22px] flex items-center gap-x-3">
+                    <div className="mt-3 flex items-center justify-center gap-x-3 md:mt-[22px] lg:justify-start">
                       <button className="border-b border-[#FAFAFA] text-base font-medium leading-6 text-[#FAFAFA]">
                         Shop Now
                       </button>
@@ -204,15 +204,15 @@ const HeroSection = () => {
                       unoptimized
                       src="/images/hero_endframe__cvklg0xk3w6e_large 2.png"
                       alt="Image"
-                      className="h-[352px] w-[496px]"
+                      className="h-full w-full md:h-[352px] md:w-[496px]"
                     />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="ml-16 mt-14 flex justify-center">
+                <div className="flex flex-col items-center justify-center  md:flex-row  lg:ml-16 lg:mt-14">
                   <div>
-                    <div className="flex items-center gap-x-6 ">
+                    <div className="flex items-center justify-center gap-x-6  lg:justify-start ">
                       <Image
                         width={40}
                         height={50}
@@ -225,10 +225,10 @@ const HeroSection = () => {
                         iPhone 14 Series
                       </p>
                     </div>
-                    <h3 className="pt-5  text-[48px] font-semibold text-[#FAFAFA]">
+                    <h3 className="pt-2 text-center text-4xl font-semibold leading-normal text-[#FAFAFA] md:pt-5 lg:text-start lg:text-[48px]">
                       Up to 10% <br /> off Voucher
                     </h3>
-                    <div className="mt-[22px] flex items-center gap-x-3">
+                    <div className="mt-3 flex items-center justify-center gap-x-3 md:mt-[22px] lg:justify-start">
                       <button className="border-b border-[#FAFAFA] text-base font-medium leading-6 text-[#FAFAFA]">
                         Shop Now
                       </button>
@@ -248,15 +248,15 @@ const HeroSection = () => {
                       unoptimized
                       src="/images/hero_endframe__cvklg0xk3w6e_large 2.png"
                       alt="Image"
-                      className="h-[352px] w-[496px]"
+                      className="h-full w-full md:h-[352px] md:w-[496px]"
                     />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="ml-16 mt-14 flex justify-center">
+                <div className="flex flex-col items-center justify-center py-2 md:flex-row  md:py-0  lg:ml-16 lg:mt-14">
                   <div>
-                    <div className="flex items-center gap-x-6 ">
+                    <div className="flex items-center justify-center gap-x-6  lg:justify-start ">
                       <Image
                         width={40}
                         height={50}
@@ -269,10 +269,10 @@ const HeroSection = () => {
                         iPhone 14 Series
                       </p>
                     </div>
-                    <h3 className="pt-5  text-[48px] font-semibold text-[#FAFAFA]">
-                      Up to 10% <br /> off Voucher
+                    <h3 className="max-w-[294px] pt-2 text-center text-4xl font-semibold leading-normal text-[#FAFAFA] md:pt-5 lg:text-start lg:text-[48px]">
+                      Up to 10% off Voucher
                     </h3>
-                    <div className="mt-[22px] flex items-center gap-x-3">
+                    <div className="mt-3 flex items-center justify-center gap-x-3 md:mt-[22px] lg:justify-start">
                       <button className="border-b border-[#FAFAFA] text-base font-medium leading-6 text-[#FAFAFA]">
                         Shop Now
                       </button>
@@ -292,7 +292,7 @@ const HeroSection = () => {
                       unoptimized
                       src="/images/hero_endframe__cvklg0xk3w6e_large 2.png"
                       alt="Image"
-                      className="h-[352px] w-[496px]"
+                      className="h-full w-full md:h-[352px] md:w-[496px]"
                     />
                   </div>
                 </div>

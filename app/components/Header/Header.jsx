@@ -1,10 +1,13 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import AccountDropdown from "./AccountDropdown";
 import Link from "next/link";
 import NavLink from "../Navlink/Navlink";
+import { IoMenu } from "react-icons/io5";
+import MenuHeader from "./MenuHeader";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
       <div className="border-b border-[#000000] border-opacity-30">
@@ -79,6 +82,7 @@ const Header = () => {
                 </div>
               </Link>
               <AccountDropdown />
+              <MenuHeader />
             </div>
           </div>
         </div>
